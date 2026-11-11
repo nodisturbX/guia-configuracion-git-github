@@ -18,7 +18,7 @@ Antes de empezar a escribir código o gestionar proyectos, debemos configurar tu
 2. **Configurar tu Identidad Global:**
    * Configura tu nombre de usuario (o apodo de GitHub) y tu correo electrónico ejecutando estos comandos en PowerShell:
      ```powershell
-     git config --global user.name "nodisturbX"
+     git config --global user.name "nombreusuario"
      git config --global user.email "tu-correo@ejemplo.com"
      ```
 
@@ -38,7 +38,7 @@ Antes de empezar a escribir código o gestionar proyectos, debemos configurar tu
 2. **Clonar el Repositorio Localmente:**
    * Copia la URL HTTPS de tu repositorio y ejecútalo en PowerShell en tu carpeta de proyectos:
      ```powershell
-     git clone [https://github.com/nodisturbX/guia-configuracion-git-github.git](https://github.com/nodisturbX/guia-configuracion-git-github.git)
+     git clone [https://github.com/nombreusuario/guia-configuracion-git-github.git](https://github.com/nodisturbX/guia-configuracion-git-github.git)
      ```
 
 ---

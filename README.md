@@ -38,7 +38,7 @@ Antes de empezar a escribir código o gestionar proyectos, debemos configurar tu
 2. **Clonar el Repositorio Localmente:**
    * Copia la URL HTTPS de tu repositorio y ejecútalo en PowerShell en tu carpeta de proyectos:
      ```powershell
-     git clone [https://github.com/nombreusuario/guia-configuracion-git-github.git](https://github.com/nodisturbX/guia-configuracion-git-github.git)
+     git clone [https://github.com/nombreusuario/guia-configuracion-git-github.git](https://github.com/nombreusuario/guia-configuracion-git-github.git)
      ```
 
 ---

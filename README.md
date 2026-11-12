@@ -4,6 +4,30 @@ Bienvenido a esta guía práctica diseñada para estudiantes y profesionales que
 
 ---
 
+## 🧐 Conceptos Clave (Explicados sin rodeos)
+
+Antes de tirar comandos, entendamos las 4 piezas del rompecabezas:
+
+1. **¿Qué es un Repositorio (`repository`)?**
+   Es la carpeta de tu proyecto (por ejemplo, tus scripts o guías) que ahora tiene superpoderes. No solo guarda archivos, sino que **registra toda su historia de cambios**.
+
+2. **¿Qué es un Commit (La Fotografía)?**
+   Cada vez que terminas algo que funciona y quieres guardarlo en la historia, haces un `commit`. Es como hacer una "fotografía" o un punto de control en el tiempo. Si algo se rompe mañana, puedes volver exactamente a esta foto.
+
+3. **¿Qué es una Branch (Una Rama)?**
+   Imagina el tronco de un árbol. La rama principal se llama **`main`**. Si quieres experimentar creando un script arriesgado sin romper tu trabajo estable, creas una "rama" secundaria (un camino paralelo), pruebas ahí, y si funciona, lo unes al tronco.
+
+4. **El Flujo Visual del Proceso:**
+
+```text
+[ Tu Computadora (Local) ]                   [ La Nube (GitHub) ]
+  Archivos en tu PC                            Tu Repositorio Online
+        │                                                │
+        ├─ 1. Modificas tus archivos                     │
+        ├─ 2. `git add .` (Los preparas)                 │
+        ├─ 3. `git commit` (Tomas la fotografía)         │
+        └─ 4. `git push` ──────────────────────────────> ┘ (Se suben y respaldan)
+
 ## 🛠️ Módulo 1: Instalación y Configuración Inicial
 
 Antes de empezar a escribir código o gestionar proyectos, debemos configurar tu identidad en el equipo.

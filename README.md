@@ -75,3 +75,16 @@ Cada vez que realices cambios en tus archivos y quieras respaldarlos en la nube,
 1. **Verificar el estado:**
    ```powershell
    git status
+
+2. **Preparar los cambios:**
+   ```powershell
+   git add .
+
+3. **Guardar la fotografía (commit) con un mensaje descriptivo**
+   ```powershell
+   git commit -m "explica que cambio"
+
+4. **Sincronizar con GitHub (push)**
+   ```powershell
+   git push origin main
+

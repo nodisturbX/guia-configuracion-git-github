@@ -26,10 +26,10 @@ Para entender cómo se conectan los conceptos que acabamos de revisar, observa l
 
 ### 🔍 Descripción detallada del diagrama:
 
-1. **Repositorio (The Project Hub):** Es la nube central (el contenedor general) que almacena todo el código, los archivos y el historial completo del proyecto[cite: 5].
-2. **Main (La línea de producción principal):** Representada por la línea azul horizontal. Es la versión estable y oficial del proyecto donde se van acumulando los commits validados en orden cronológico (C1, C2, C3...)[cite: 5].
-3. **Branch (La ruta de desarrollo secundaria):** Representada por la línea naranja inferior (`feature/new-design`). Permite sacar una copia temporal de la línea principal para experimentar, desarrollar nuevas funciones (commits C4 y C5) sin afectar el proyecto estable[cite: 5].
-4. **Commit (Punto en el tiempo):** Cada uno de los círculos numerados (`C1`, `C4`, etc.) actúa como una "fotografía" o registro histórico que guarda qué usuario hizo el cambio y qué mensaje dejó (por ejemplo, "Added UI elements")[cite: 5].
+- **Repositorio (The Project Hub):** Es la nube central (el contenedor general) que almacena todo el código, los archivos y el historial completo del proyecto[cite: 5].
+- **Main (La línea de producción principal):** Representada por la línea azul horizontal. Es la versión estable y oficial del proyecto donde se van acumulando los commits validados en orden cronológico (C1, C2, C3...)[cite: 5].
+- **Branch (La ruta de desarrollo secundaria):** Representada por la línea naranja inferior (`feature/new-design`). Permite sacar una copia temporal de la línea principal para experimentar, desarrollar nuevas funciones (commits C4 y C5) sin afectar el proyecto estable[cite: 5].
+- **Commit (Punto en el tiempo):** Cada uno de los círculos numerados (`C1`, `C4`, etc.) actúa como una "fotografía" o registro histórico que guarda qué usuario hizo el cambio y qué mensaje dejó (por ejemplo, "Added UI elements")[cite: 5].
 
 
 ## 🛠️ Módulo 1: Instalación y Configuración Inicial

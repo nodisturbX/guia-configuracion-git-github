@@ -26,7 +26,8 @@ Antes de tirar comandos, entendamos las 4 piezas del rompecabezas:
         ├─ 1. Modificas tus archivos                     │
         ├─ 2. `git add .` (Los preparas)                 │
         ├─ 3. `git commit` (Tomas la fotografía)         │
-        └─ 4. `git push` ──────────────────────────────> ┘ (Se suben y respaldan)
+        └─ 4. `git push` ──────────────────────────────> ┘ (Se suben y respaldan) 
+```
 
 ## 🛠️ Módulo 1: Instalación y Configuración Inicial
 

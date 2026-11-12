@@ -8,6 +8,7 @@ Bienvenido a esta guía práctica diseñada para estudiantes y profesionales que
 
 Antes de tirar comandos, entendamos las 4 piezas del rompecabezas:
 
+
 1. **¿Qué es un Repositorio (`repository`)?**
    Es la carpeta de tu proyecto (por ejemplo, tus scripts o guías) que ahora tiene superpoderes. No solo guarda archivos, sino que **registra toda su historia de cambios**.
 
@@ -17,17 +18,19 @@ Antes de tirar comandos, entendamos las 4 piezas del rompecabezas:
 3. **¿Qué es una Branch (Una Rama)?**
    Imagina el tronco de un árbol. La rama principal se llama **`main`**. Si quieres experimentar creando un script arriesgado sin romper tu trabajo estable, creas una "rama" secundaria (un camino paralelo), pruebas ahí, y si funciona, lo unes al tronco.
 
-4. **El Flujo Visual del Proceso:**
+4. **Esquema Visual del Flujo de Trabajo en GitHub**
+ 
+Para entender cómo se conectan los conceptos que acabamos de revisar, observa la siguiente infografía del flujo de trabajo:
 
-```text
-[ Tu Computadora (Local) ]                   [ La Nube (GitHub) ]
-  Archivos en tu PC                            Tu Repositorio Online
-        │                                                │
-        ├─ 1. Modificas tus archivos                     │
-        ├─ 2. `git add .` (Los preparas)                 │
-        ├─ 3. `git commit` (Tomas la fotografía)         │
-        └─ 4. `git push` ──────────────────────────────> ┘ (Se suben y respaldan) 
-```
+![Diagrama explicativo del flujo de trabajo en GitHub que muestra el Repositorio central, la rama principal main con sus commits C1, C2 y C3, una rama secundaria feature branch con C4 y C5, y un Pull Request](assets/github-workflow.jpg)
+
+### 🔍 Descripción detallada del diagrama:
+
+1. **Repositorio (The Project Hub):** Es la nube central (el contenedor general) que almacena todo el código, los archivos y el historial completo del proyecto[cite: 5].
+2. **Main (La línea de producción principal):** Representada por la línea azul horizontal. Es la versión estable y oficial del proyecto donde se van acumulando los commits validados en orden cronológico (C1, C2, C3...)[cite: 5].
+3. **Branch (La ruta de desarrollo secundaria):** Representada por la línea naranja inferior (`feature/new-design`). Permite sacar una copia temporal de la línea principal para experimentar, desarrollar nuevas funciones (commits C4 y C5) sin afectar el proyecto estable[cite: 5].
+4. **Commit (Punto en el tiempo):** Cada uno de los círculos numerados (`C1`, `C4`, etc.) actúa como una "fotografía" o registro histórico que guarda qué usuario hizo el cambio y qué mensaje dejó (por ejemplo, "Added UI elements")[cite: 5].
+
 
 ## 🛠️ Módulo 1: Instalación y Configuración Inicial
 

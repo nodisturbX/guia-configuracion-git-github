@@ -22,7 +22,7 @@ Antes de tirar comandos, entendamos las 4 piezas del rompecabezas:
  
 Para entender cómo se conectan los conceptos que acabamos de revisar, observa la siguiente infografía del flujo de trabajo:
 
-![Diagrama explicativo del flujo de trabajo en GitHub que muestra el Repositorio central, la rama principal main con sus commits C1, C2 y C3, una rama secundaria feature branch con C4 y C5, y un Pull Request](assets/github-workflow.jpg)
+![Diagrama explicativo del flujo de trabajo en GitHub que muestra el Repositorio central, la rama principal main con sus commits C1, C2 y C3, una rama secundaria feature branch con C4 y C5, y un Pull Request](assets/github-workflow.jpeg)
 
 ### 🔍 Descripción detallada del diagrama:
 
